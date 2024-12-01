@@ -1,8 +1,7 @@
 module github.com/aquasecurity/trivy
 
 go 1.22
-
-toolchain go1.22.0
+toolchain go1.22.5
 
 require (
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
@@ -107,7 +106,7 @@ require (
 	go.etcd.io/bbolt v1.3.9
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa
-	golang.org/x/mod v0.16.0
+	golang.org/x/mod v0.22.0
 	golang.org/x/net v0.24.0
 	golang.org/x/sync v0.6.0
 	golang.org/x/term v0.19.0
